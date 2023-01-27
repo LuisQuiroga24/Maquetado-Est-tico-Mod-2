@@ -1,65 +1,75 @@
-.index2{ /*esto es para poner la imagen de fondo, para que no se repita debemos borrar la img del index todo el div con la class*/
-   background-image: url(../img/fondo13convertida\ jpg\ \(1\).jpg), url(../img/fomdo12.jpeg);
-   background-repeat:no-repeat, repeat-y;
-   background-size: 100%;
-   margin-top: -1rem;
+.index2 {
+	/*esto es para poner la imagen de fondo, para que no se repita debemos borrar la img del index todo el div con la class*/
+	background-image: url(../img/fondo13convertida\ jpg\ \(1\).jpg), url(../img/fomdo12.jpeg);
+	background-repeat: no-repeat, repeat-y;
+	background-size: 100%;
+	margin-top: -1rem;
 
-}  
+}
 
 
 .navbar.navbar-expand-lg.bg-primary {
-   /* background-color: blueviolet !important;*/
-background: rgb(34,193,195);
-background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(31,0,212,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(31,0,212,1) 100%);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(31,0,212,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#1f00d4",GradientType=1);
-} /*Para darle color a los icono cuando nos colocamos sobre los mismos*/
-i.fa-brands.fa-facebook.fa-2xl:hover{
-color: rgb(0, 0, 182);
-} 
-i.fa-brands.fa-linkedin.fa-2xl:hover{
-color: rgb(13, 205, 239);
-}
-i.fa-brands.fa-github.fa-2xl:hover{
-   color: rgb(92, 89, 89);
-}
-i.fa-brands.fa-instagram.fa-2xl:hover{
-   color: rgb(238, 87, 162);
-}
-i.fa-solid.fa-user-lock.fa-2xl:hover{
-   color: rgb(36, 190, 36);
-}
-.list-group{
-   --bs-list-group-bg: transparent;
-   --bs-list-group-border-color: transparent;
-}
-.container{
-   margin-top: 18rem;
-   color: rgb(245, 249, 251);
-}*/
-
-section.about{
-   margin-top:0rem;
+	/* background-color: blueviolet !important;*/
+	background: rgb(34, 193, 195);
+	background: -moz-linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(31, 0, 212, 1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(31, 0, 212, 1) 100%);
+	background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(31, 0, 212, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3", endColorstr="#1f00d4", GradientType=1);
 }
 
-.col-9{
-background-color: rgb(43, 52, 226);
-width: 100%;
+/*Para darle color a los icono cuando nos colocamos sobre los mismos*/
+i.fa-brands.fa-facebook.fa-2xl:hover {
+	color: rgb(0, 0, 182);
 }
 
-.col-4{
-   background: rgb(238,174,202);
-background: -moz-linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(125,159,198,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(125,159,198,1) 100%);
-background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(125,159,198,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#7d9fc6",GradientType=1);
+i.fa-brands.fa-linkedin.fa-2xl:hover {
+	color: rgb(13, 205, 239);
 }
+
+i.fa-brands.fa-github.fa-2xl:hover {
+	color: rgb(92, 89, 89);
+}
+
+i.fa-brands.fa-instagram.fa-2xl:hover {
+	color: rgb(238, 87, 162);
+}
+
+i.fa-solid.fa-user-lock.fa-2xl:hover {
+	color: rgb(36, 190, 36);
+}
+
+.list-group {
+	--bs-list-group-bg: transparent;
+	--bs-list-group-border-color: transparent;
+}
+
+.container {
+	margin-top: 18rem;
+	color: rgb(245, 249, 251);
+}
+
+*/ section.about {
+	margin-top: 0rem;
+}
+
+.col-9 {
+	background-color: rgb(43, 52, 226);
+	width: 100%;
+}
+
+.col-4 {
+	background: rgb(238, 174, 202);
+	background: -moz-linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(125, 159, 198, 1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(125, 159, 198, 1) 100%);
+	background: linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(125, 159, 198, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#7d9fc6", GradientType=1);
+}
+
 .ancho {
-   width: 66.6667%;
-   background: rgb(238,174,202);
-   background: -moz-linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(125,159,198,1) 100%);
-   background: -webkit-linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(125,159,198,1) 100%);
-   background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(125,159,198,1) 100%);
-   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#7d9fc6",GradientType=1);
+	width: 66.6667%;
+	background: rgb(238, 174, 202);
+	background: -moz-linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(125, 159, 198, 1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(125, 159, 198, 1) 100%);
+	background: linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(125, 159, 198, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#7d9fc6", GradientType=1);
 }
